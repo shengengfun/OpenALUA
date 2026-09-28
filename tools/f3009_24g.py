@@ -3,7 +3,9 @@
 Wired mode uses an 8-byte feature report:   07 FF FF <e> <b> <s> 00 00
 2.4G mode uses a 65-byte output report:      00 BB AA 99 88 AA <e> <b> <s> 00 00 + 补零
 
-i.e. envelope[6..10] == wired[3..7]. Both were captured from the official tool.
+`BB AA 99 88` 是 4 字节魔数，紧跟的 `AA` 才是命令判别字节（偏移 [5]），
+灯效/亮度/速度在 [6]/[7]/[8]。两者别合并成一个常量 —— 合并过一次，
+结果 Rust 移植版多写了一个 AA，整个载荷右移，灯效命令静默失效。
 
 Usage:
     python tools/f3009_24g.py 0 5 0            # 常亮 / 最亮
@@ -18,7 +20,8 @@ import hid
 VID = 0x1A2C
 PID = 0x7FFF
 VENDOR_PAGE = 0xFF01
-MAGIC = bytes.fromhex("bbaa9988aa")
+MAGIC = bytes.fromhex("bbaa9988")  # 4 字节
+CMD_LIGHTING = 0xAA              # 偏移 [5]
 
 TOUR = [
     (0, 5, 0, "常亮 全亮"),
@@ -40,7 +43,8 @@ def open_vendor():
 
 def frame(effect, brightness, speed):
     body = bytes([effect & 0xFF, brightness & 0xFF, speed & 0xFF, 0, 0])
-    return bytes([0x00]) + MAGIC + body + bytes(65 - 1 - 5 - 5)
+    f = bytes([0x00]) + MAGIC + bytes([CMD_LIGHTING]) + body
+    return f + bytes(65 - len(f))
 
 
 def send(dev, effect, brightness, speed):
