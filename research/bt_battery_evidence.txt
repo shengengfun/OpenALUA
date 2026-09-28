@@ -1,0 +1,143 @@
+------ -----     ------------                           ----------
+OK     Bluetooth 通用访问配置文件                               BTHLEDEVICE\{00001800-0000-1000-8000-00805F9B34FB}_DEV_VID&02046D_PID&B34C_REV&0014_000029F00000\8&1A1311D6&0&0001
+OK     Bluetooth BT5.2_2                                BTHLE\DEV_000029F00000\7&302A3BC5&0&000029F00000
+OK     HIDClass  符合蓝牙低能耗 GATT 的 HID 设备                  BTHLEDEVICE\{00001812-0000-1000-8000-00805F9B34FB}_DEV_VID&02046D_PID&B34C_REV&0014_000029F00000\8&1A1311D6&0&0023
+OK     Bluetooth 通用属性配置文件                               BTHLEDEVICE\{00001801-0000-1000-8000-00805F9B34FB}_DEV_VID&02046D_PID&B34C_REV&0014_000029F00000\8&1A1311D6&0&0008
+OK     Bluetooth Microsoft 蓝牙 LE 枚举器                    BTH\MS_BTHLE\6&1D3B1BBE&0&3
+OK     Bluetooth 蓝牙 LE 通用属性服务                           BTHLEDEVICE\{0000AE40-0000-1000-8000-00805F9B34FB}_DEV_VID&02046D_PID&B34C_REV&0014_000029F00000\8&1A1311D6&0&004A
+OK     Bluetooth 设备信息服务                                 BTHLEDEVICE\{0000180A-0000-1000-8000-00805F9B34FB}_DEV_VID&02046D_PID&B34C_REV&0014_000029F00000\8&1A1311D6&0&000C
+OK     Bluetooth 蓝牙 LE 通用属性服务                           BTHLEDEVICE\{0000AE00-0000-1000-8000-00805F9B34FB}_DEV_VID&02046D_PID&B34C_REV&0014_000029F00000\8&1A1311D6&0&0080
+OK     Bluetooth 蓝牙 LE 通用属性服务                           BTHLEDEVICE\{0000180F-0000-1000-8000-00805F9B34FB}_DEV_VID&02046D_PID&B34C_REV&0014_000029F00000\8&1A1311D6&0&001F
+--- 通用访问配置文件  [OK]
+BTHLEDEVICE\{00001800-0000-1000-8000-00805F9B34FB}_DEV_VID&02046D_PID&B34C_REV&0014_000029F00000\8&1A1311D6&0&0001
+DEVPKEY_Device_EnumeratorName                                            BTHLEDEVICE
+DEVPKEY_Device_InstanceId                                                BTHLEDEVICE\{00001800-0000-1000-8000-00805F9B34FB}_DEV_VID&02046D_PID&B34C_REV&0014_000029F00000\8&1A1311D6&0&0001
+DEVPKEY_Device_DevNodeStatus                                             1098915850
+DEVPKEY_Device_Parent                                                    BTHLE\Dev_000029f00000\7&302a3bc5&0&000029f00000
+DEVPKEY_Device_IsPresent                                                 True
+DEVPKEY_Bluetooth_DeviceAddress                                          000029f00000
+DEVPKEY_Device_ConfigurationId                                           bthleenum.inf:BTHLEDevice\{00001800-0000-1000-8000-00805f9b34fb},AttGenericService.NT
+*** {83DA6326-97A6-4088-9453-A1923F573B29} 3                                 bthleenum.inf:00a2c5fcadec0364:AttGenericService.NT:10.0.19041.3636:BTHLEDevice\{00001800-0000-1000-8000-00805f9b34fb}
+*** {83DA6326-97A6-4088-9453-A1923F573B29} 10                                BTHLE\Dev_000029f00000\7&302a3bc5&0&000029f00000
+DEVPKEY_Device_DriverInfPath                                             bthleenum.inf
+DEVPKEY_Device_MatchingDeviceId                                          BTHLEDevice\{00001800-0000-1000-8000-00805f9b34fb}
+--- BT5.2_2  [OK]
+BTHLE\DEV_000029F00000\7&302A3BC5&0&000029F00000
+DEVPKEY_Device_Service                                                   BthLEEnum
+DEVPKEY_Device_EnumeratorName                                            BTHLE
+DEVPKEY_Device_InstanceId                                                BTHLE\DEV_000029F00000\7&302A3BC5&0&000029F00000
+DEVPKEY_Device_DevNodeStatus                                             25165834
+DEVPKEY_Device_Parent                                                    BTH\MS_BTHLE\6&1d3b1bbe&0&3
+DEVPKEY_Device_IsPresent                                                 True
+*** {104EA319-6EE2-4701-BD47-8DDBF425BBE5} 2                                 100
+*** {104EA319-6EE2-4701-BD47-8DDBF425BBE5} 3                                 False
+DEVPKEY_Bluetooth_DeviceAddress                                          000029f00000
+DEVPKEY_Device_ConfigurationId                                           bthleenum.inf:BTHLE\GenericDevice,BthLEEnum.Device.NT
+*** {83DA6326-97A6-4088-9453-A1923F573B29} 3                                 bthleenum.inf:00a2c5fcbb992863:BthLEEnum.Device.NT:10.0.19041.3636:BTHLE\GenericDevice
+*** {83DA6326-97A6-4088-9453-A1923F573B29} 10                                BTH\MS_BTHLE\6&1d3b1bbe&0&3
+DEVPKEY_Device_DriverInfPath                                             bthleenum.inf
+DEVPKEY_Device_DriverInfSection                                          BthLEEnum.Device.NT
+DEVPKEY_Device_MatchingDeviceId                                          BTHLE\GenericDevice
+--- 符合蓝牙低能耗 GATT 的 HID 设备  [OK]
+BTHLEDEVICE\{00001812-0000-1000-8000-00805F9B34FB}_DEV_VID&02046D_PID&B34C_REV&0014_000029F00000\8&1A1311D6&0&0023
+DEVPKEY_Device_EnumeratorName                                            BTHLEDEVICE
+DEVPKEY_Device_InstanceId                                                BTHLEDEVICE\{00001812-0000-1000-8000-00805F9B34FB}_DEV_VID&02046D_PID&B34C_REV&0014_000029F00000\8&1A1311D6&0&0023
+DEVPKEY_Device_DevNodeStatus                                             25165834
+DEVPKEY_Device_Parent                                                    BTHLE\Dev_000029f00000\7&302a3bc5&0&000029f00000
+DEVPKEY_Device_IsPresent                                                 True
+DEVPKEY_Bluetooth_DeviceAddress                                          000029f00000
+DEVPKEY_Device_ConfigurationId                                           hidbthle.inf:BTHLEDevice\{00001812-0000-1000-8000-00805f9b34fb},HidBthLE.NT
+*** {83DA6326-97A6-4088-9453-A1923F573B29} 3                                 hidbthle.inf:ed86ca1180c44c25:HidBthLE.NT:10.0.19041.5848:BTHLEDevice\{00001812-0000-1000-8000-00805f9b34fb}
+*** {83DA6326-97A6-4088-9453-A1923F573B29} 10                                BTHLE\Dev_000029f00000\7&302a3bc5&0&000029f00000
+DEVPKEY_Device_DriverInfPath                                             hidbthle.inf
+DEVPKEY_Device_DriverInfSection                                          HidBthLE.NT
+DEVPKEY_Device_MatchingDeviceId                                          BTHLEDevice\{00001812-0000-1000-8000-00805f9b34fb}
+--- 通用属性配置文件  [OK]
+BTHLEDEVICE\{00001801-0000-1000-8000-00805F9B34FB}_DEV_VID&02046D_PID&B34C_REV&0014_000029F00000\8&1A1311D6&0&0008
+DEVPKEY_Device_EnumeratorName                                            BTHLEDEVICE
+DEVPKEY_Device_InstanceId                                                BTHLEDEVICE\{00001801-0000-1000-8000-00805F9B34FB}_DEV_VID&02046D_PID&B34C_REV&0014_000029F00000\8&1A1311D6&0&0008
+DEVPKEY_Device_DevNodeStatus                                             1098915850
+DEVPKEY_Device_Parent                                                    BTHLE\Dev_000029f00000\7&302a3bc5&0&000029f00000
+DEVPKEY_Device_IsPresent                                                 True
+DEVPKEY_Bluetooth_DeviceAddress                                          000029f00000
+DEVPKEY_Device_ConfigurationId                                           bthleenum.inf:BTHLEDevice\{00001801-0000-1000-8000-00805f9b34fb},AttGenericService.NT
+*** {83DA6326-97A6-4088-9453-A1923F573B29} 3                                 bthleenum.inf:00a2c5fc94f92be5:AttGenericService.NT:10.0.19041.3636:BTHLEDevice\{00001801-0000-1000-8000-00805f9b34fb}
+*** {83DA6326-97A6-4088-9453-A1923F573B29} 10                                BTHLE\Dev_000029f00000\7&302a3bc5&0&000029f00000
+DEVPKEY_Device_DriverInfPath                                             bthleenum.inf
+DEVPKEY_Device_MatchingDeviceId                                          BTHLEDevice\{00001801-0000-1000-8000-00805f9b34fb}
+--- Microsoft 蓝牙 LE 枚举器  [OK]
+BTH\MS_BTHLE\6&1D3B1BBE&0&3
+DEVPKEY_Device_Service                                                   BthLEEnum
+DEVPKEY_Device_InstanceId                                                BTH\MS_BTHLE\6&1D3B1BBE&0&3
+DEVPKEY_Device_DevNodeStatus                                             25165834
+DEVPKEY_Device_IsPresent                                                 True
+DEVPKEY_Device_ConfigurationId                                           bthleenum.inf:BTH\MS_BTHLE,BthLEEnum.NT
+*** {83DA6326-97A6-4088-9453-A1923F573B29} 3                                 bthleenum.inf:00a2c5fc2041f4f1:BthLEEnum.NT:10.0.19041.3636:BTH\MS_BTHLE
+DEVPKEY_Device_DriverInfPath                                             bthleenum.inf
+DEVPKEY_Device_DriverInfSection                                          BthLEEnum.NT
+DEVPKEY_Device_MatchingDeviceId                                          BTH\MS_BTHLE
+--- 蓝牙 LE 通用属性服务  [OK]
+BTHLEDEVICE\{0000AE40-0000-1000-8000-00805F9B34FB}_DEV_VID&02046D_PID&B34C_REV&0014_000029F00000\8&1A1311D6&0&004A
+DEVPKEY_Device_EnumeratorName                                            BTHLEDEVICE
+DEVPKEY_Device_InstanceId                                                BTHLEDEVICE\{0000AE40-0000-1000-8000-00805F9B34FB}_DEV_VID&02046D_PID&B34C_REV&0014_000029F00000\8&1A1311D6&0&004A
+DEVPKEY_Device_DevNodeStatus                                             25174026
+DEVPKEY_Device_Parent                                                    BTHLE\Dev_000029f00000\7&302a3bc5&0&000029f00000
+DEVPKEY_Device_IsPresent                                                 True
+DEVPKEY_Bluetooth_DeviceAddress                                          000029f00000
+DEVPKEY_Device_ConfigurationId                                           bthleenum.inf:BTHLEDevice\GenericATTService,AttGenericService.NT
+*** {83DA6326-97A6-4088-9453-A1923F573B29} 3                                 bthleenum.inf:00a2c5fc4ed161d6:AttGenericService.NT:10.0.19041.3636:BTHLEDevice\GenericATTService
+*** {83DA6326-97A6-4088-9453-A1923F573B29} 10                                BTHLE\Dev_000029f00000\7&302a3bc5&0&000029f00000
+DEVPKEY_Device_DriverInfPath                                             bthleenum.inf
+DEVPKEY_Device_MatchingDeviceId                                          BTHLEDevice\GenericATTService
+--- 设备信息服务  [OK]
+BTHLEDEVICE\{0000180A-0000-1000-8000-00805F9B34FB}_DEV_VID&02046D_PID&B34C_REV&0014_000029F00000\8&1A1311D6&0&000C
+DEVPKEY_Device_EnumeratorName                                            BTHLEDEVICE
+DEVPKEY_Device_InstanceId                                                BTHLEDEVICE\{0000180A-0000-1000-8000-00805F9B34FB}_DEV_VID&02046D_PID&B34C_REV&0014_000029F00000\8&1A1311D6&0&000C
+DEVPKEY_Device_DevNodeStatus                                             1098915850
+DEVPKEY_Device_Parent                                                    BTHLE\Dev_000029f00000\7&302a3bc5&0&000029f00000
+DEVPKEY_Device_IsPresent                                                 True
+DEVPKEY_Bluetooth_DeviceAddress                                          000029f00000
+DEVPKEY_Device_ConfigurationId                                           bthleenum.inf:BTHLEDevice\{0000180a-0000-1000-8000-00805f9b34fb},AttGenericService.NT
+*** {83DA6326-97A6-4088-9453-A1923F573B29} 3                                 bthleenum.inf:00a2c5fc05cbb3f5:AttGenericService.NT:10.0.19041.3636:BTHLEDevice\{0000180a-0000-1000-8000-00805f9b34fb}
+*** {83DA6326-97A6-4088-9453-A1923F573B29} 10                                BTHLE\Dev_000029f00000\7&302a3bc5&0&000029f00000
+DEVPKEY_Device_DriverInfPath                                             bthleenum.inf
+DEVPKEY_Device_MatchingDeviceId                                          BTHLEDevice\{0000180a-0000-1000-8000-00805f9b34fb}
+--- Microsoft 蓝牙枚举器  [OK]
+DEVPKEY_Device_DevNodeStatus                                             25174026
+DEVPKEY_Device_IsPresent                                                 True
+--- 蓝牙 LE 通用属性服务  [OK]
+BTHLEDEVICE\{0000AE00-0000-1000-8000-00805F9B34FB}_DEV_VID&02046D_PID&B34C_REV&0014_000029F00000\8&1A1311D6&0&0080
+DEVPKEY_Device_EnumeratorName                                            BTHLEDEVICE
+DEVPKEY_Device_InstanceId                                                BTHLEDEVICE\{0000AE00-0000-1000-8000-00805F9B34FB}_DEV_VID&02046D_PID&B34C_REV&0014_000029F00000\8&1A1311D6&0&0080
+DEVPKEY_Device_DevNodeStatus                                             25174026
+DEVPKEY_Device_Parent                                                    BTHLE\Dev_000029f00000\7&302a3bc5&0&000029f00000
+DEVPKEY_Device_IsPresent                                                 True
+DEVPKEY_Bluetooth_DeviceAddress                                          000029f00000
+DEVPKEY_Device_ConfigurationId                                           bthleenum.inf:BTHLEDevice\GenericATTService,AttGenericService.NT
+*** {83DA6326-97A6-4088-9453-A1923F573B29} 3                                 bthleenum.inf:00a2c5fc4ed161d6:AttGenericService.NT:10.0.19041.3636:BTHLEDevice\GenericATTService
+*** {83DA6326-97A6-4088-9453-A1923F573B29} 10                                BTHLE\Dev_000029f00000\7&302a3bc5&0&000029f00000
+DEVPKEY_Device_DriverInfPath                                             bthleenum.inf
+DEVPKEY_Device_MatchingDeviceId                                          BTHLEDevice\GenericATTService
+--- Realtek Bluetooth 5.3 Adapter  [OK]
+DEVPKEY_Device_DevNodeStatus                                             25182218
+DEVPKEY_Device_IsPresent                                                 True
+--- Bluetooth Device (RFCOMM Protocol TDI)  [OK]
+DEVPKEY_Device_DevNodeStatus                                             25174026
+DEVPKEY_Device_IsPresent                                                 True
+--- 蓝牙 LE 通用属性服务  [OK]
+BTHLEDEVICE\{0000180F-0000-1000-8000-00805F9B34FB}_DEV_VID&02046D_PID&B34C_REV&0014_000029F00000\8&1A1311D6&0&001F
+DEVPKEY_Device_EnumeratorName                                            BTHLEDEVICE
+DEVPKEY_Device_InstanceId                                                BTHLEDEVICE\{0000180F-0000-1000-8000-00805F9B34FB}_DEV_VID&02046D_PID&B34C_REV&0014_000029F00000\8&1A1311D6&0&001F
+DEVPKEY_Device_DevNodeStatus                                             25174026
+DEVPKEY_Device_Parent                                                    BTHLE\Dev_000029f00000\7&302a3bc5&0&000029f00000
+DEVPKEY_Device_IsPresent                                                 True
+DEVPKEY_Bluetooth_DeviceAddress                                          000029f00000
+DEVPKEY_Device_ConfigurationId                                           bthleenum.inf:BTHLEDevice\GenericATTService,AttGenericService.NT
+*** {83DA6326-97A6-4088-9453-A1923F573B29} 3                                 bthleenum.inf:00a2c5fc4ed161d6:AttGenericService.NT:10.0.19041.3636:BTHLEDevice\GenericATTService
+*** {83DA6326-97A6-4088-9453-A1923F573B29} 10                                BTHLE\Dev_000029f00000\7&302a3bc5&0&000029f00000
+DEVPKEY_Device_DriverInfPath                                             bthleenum.inf
+DEVPKEY_Device_MatchingDeviceId                                          BTHLEDevice\GenericATTService
+=== registry Device Parameters (BTHLE) ===
+--- 7&302a3bc5&0&000029f00000
+PSPath             : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\BTHLE\Dev_000029f00000\7&302a3bc5&0&000029f00000\Device Parameters
+PSParentPath       : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\BTHLE\Dev_000029f00000\7&302a3bc5&0&000029f00000
