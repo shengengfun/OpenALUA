@@ -1,0 +1,20 @@
+﻿鎵撳紑 iface=2 usage_page=0xff01 usage=0x0001
+鎵撳紑 iface=1 usage_page=0x0001 usage=0x0006
+鎵撳紑 iface=1 usage_page=0x0001 usage=0x0080
+鎵撳紑 iface=0 usage_page=0x0001 usage=0x0006
+鎵撳紑 iface=1 usage_page=0x000c usage=0x0001
+鎵撳紑 iface=1 usage_page=0xff01 usage=0xff01
+
+鐩戝惉 45 绉?鈥斺€?璇峰ぇ鍔涙暡閿洏銆佹寜鏃嬮挳
+
+  [iface=1 usage_page=0x0001] 璇讳笉浜嗭紙read error锛夛紝鏀惧純杩欐潯
+  [iface=0 usage_page=0x0001] 璇讳笉浜嗭紙read error锛夛紝鏀惧純杩欐潯
+[iface=1 up=0x000c u=0x0001] len=  3  03 00 00
+[iface=1 up=0x000c u=0x0001] len=  3  03 00 00
+[iface=1 up=0x000c u=0x0001] len=  3  03 00 00
+[iface=1 up=0x000c u=0x0001] len=  3  03 00 00
+[iface=1 up=0x000c u=0x0001] len=  3  03 00 00
+[iface=1 up=0x000c u=0x0001] len=  3  03 00 00
+
+鍚勯泦鍚堟敹鍒扮殑鎶ュ憡鏁帮細
+  iface=1 usage_page=0x000c usage=0x0001: 44
