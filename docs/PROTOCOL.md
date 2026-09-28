@@ -42,9 +42,9 @@
 | --- | --- | --- |
 | `[0]` | 恒为 `0x07` | report id |
 | `[1]` `[2]` | 恒为 `0xFF 0xFF` | 固定头 |
-| `[3]` | `1..=19` | **效果序号**（1-based，见下表） |
+| `[3]` | `0..=19` | **效果序号**（**0-based**，见下表） |
 | `[4]` | `0..=5` | **亮度**，`0` 即关灯 |
-| `[5]` | `0..=2` | **速度**（仅部分效果有效） |
+| `[5]` | `0..=2` | **速度** |
 | `[6]` `[7]` | `0x00` | 官方软件始终写 0，含义未确认 |
 
 写入该帧会**立即切换并应用**对应效果，无需额外的"提交"命令。
@@ -56,28 +56,44 @@
 
 ### 效果序号表
 
+序号就是官方 UI 下拉框里每一项的 `data` 属性，**从 0 开始**：
+
 | # | 中文 | 英文（官方） | # | 中文 | 英文（官方） |
 | --- | --- | --- | --- | --- | --- |
-| 1 | 常亮 | Steady | 11 | 按键涟漪 | Ripples shining |
-| 2 | 呼吸 | Breathing | 12 | 花开富贵 | Rich and honored |
-| 3 | 随按随灭 | Press and destroy | 13 | 跑马灯效 | Marquee effect |
-| 4 | 随波逐流 | Neon stream | 14 | 旋转风暴 | Rotating storm |
-| 5 | 流光模式 | Streamer | 15 | 蛇形跑马 | Serpentine horse race |
-| 6 | 流光溢彩 | Flowing light and color | 16 | 繁星点点 | Stars twinkle |
-| 7 | 滴水涟漪 | Dripping ripples | 17 | 川流不息 | Retro snake |
-| 8 | 点彩夺目 | Brilliant point | 18 | 斜拉变幻 | Diagonal transformation |
-| 9 | 一触即发 | Flash away | 19 | 正弦光波 | Sine wave |
+| **0** | **常亮** | Steady | 11 | 按键涟漪 | Ripples shining |
+| **1** | **指点江山** | Gaming Special Key | 12 | 花开富贵 | Rich and honored |
+| 2 | 呼吸 | Breathing | 13 | 跑马灯效 | Marquee effect |
+| 3 | 随按随灭 | Press and destroy | 14 | 旋转风暴 | Rotating storm |
+| 4 | 随波逐流 | Neon stream | 15 | 蛇形跑马 | Serpentine horse race |
+| 5 | 流光模式 | Streamer | 16 | 繁星点点 | Stars twinkle |
+| 6 | 流光溢彩 | Flowing light and color | 17 | 川流不息 | Retro snake |
+| 7 | 滴水涟漪 | Dripping ripples | 18 | 斜拉变幻 | Diagonal transformation |
+| 8 | 点彩夺目 | Brilliant point | 19 | 正弦光波 | Sine wave |
+| 9 | 一触即发 | Flash away | | | |
 | 10 | 踏雪无痕 | Shadow disappear | | | |
 
-> 官方 UI 下拉框里 `data=1`（Gaming Special Key）被注释掉，从未实现；
-> 但协议序号是**连续**的，因此协议序号 = UI 列表行号（1-based），与 `data` 值不同。
+> **`0` 是常亮，不是 `1`。**
+>
+> 这里曾经弄错过一次：早期版本按"UI 行号 1-based"把常亮写成 `1`，
+> 结果点"常亮"实际触发的是序号 `1` 的 **指点江山**（Gaming Special Key）——
+> 只有游戏键那一片会亮。
+>
+> 硬证据有两条：
+> 1. 官方安装目录 `uires/Translator/lang_cn.xml` 里效果顺序是
+>    `Steady（常亮）→ Gaming Special Key（指点江山）→ Breathing（呼吸）→ …`；
+> 2. 在官方软件里选常亮时，抓到的帧是 `07 FF FF 00 <亮度> 00 00 00`。
+>
+> 官方 UI 的下拉框里 `data="1"` 这一行**被注释掉了**（见 `uires/xml/dlg_main.xml`），
+> 但固件完全接受这个值——MiaKeyDrv 把它作为"官方隐藏功能"放了出来。
 
 ### 示例
 
 ```text
 07 FF FF 02 05 02 00 00     呼吸，最亮，最快
 07 FF FF 05 05 02 00 00     流光模式，最亮，最快
-07 FF FF 01 00 00 00 00     常亮，亮度 0 → 关灯
+07 FF FF 00 05 00 00 00     常亮，最亮（注意是 00，不是 01）
+07 FF FF 00 00 00 00 00     常亮，亮度 0 → 关灯
+07 FF FF 01 05 00 00 00     指点江山（只有游戏键亮）
 ```
 
 ## 3. 官方软件的初始化序列
@@ -137,5 +153,48 @@ python tools/f3009_write_reg.py 02 05 02 00 00
 python tools/hid_enum.py
 python tools/hid_probe.py
 ```
+
+## 8. 官方界面资源里的硬证据
+
+官方软件用 SOUI 框架，界面定义就在安装目录 `uires/` 下，而且是**明文 XML**。
+滑块的量程、下拉框每个选项的序号都能直接读出来，不用猜。
+
+### 滑块量程（`uires/xml/dlg_main.xml`）
+
+| 控件 | min | max | 说明 |
+| --- | --- | --- | --- |
+| `bar_general_speed_*` | 0 | 2 | **速度，3 档** |
+| `bar_const_brightness_*` | 0 | 5 | 主灯亮度，6 档 |
+| `bar_side_brightness` | 0 | 7 | 侧灯亮度（F3009 没有侧灯） |
+
+所以 `07 FF FF` 帧里亮度 `0..5`、速度 `0..2` 的量程是硬件侧就定死的，
+**主机端没有"更多档位"可以挖**。
+
+### 速度滑块是按灯效分页显示的
+
+`dlg_main.xml` 里 `tab_color_effect` 有 4 个 page，选到不同灯效会切到不同 page：
+
+| page | 内容 |
+| --- | --- |
+| 0 | Speed + Brightness + **Direction（左/右）** |
+| 1 | Speed + Brightness |
+| 2 | **只有 Brightness** —— 这类灯效没有速度概念 |
+| 3 | Speed（尺寸写成 `0,0`，等于隐藏）+ Brightness + **Loader M1/M2/M3** |
+
+哪个灯效落到哪个 page 是代码里决定的，XML 里看不到。
+但 `ledeffect.xml` 里每条灯效的 `speed` 值能当旁证：默认是 2，
+而部分条目写的是 0，对应的正是"没有速度滑块"的那类灯效。
+
+> 对照实现：MiaKeyDrv 不做这个限制，**每条灯效都能调速度**
+> （官方对部分灯效藏起滑块，导致可调项反而更少）。
+
+### 别的线索
+
+- `lang_cn.xml` 里还有 `Area1..Area6`（区域 1–6）、`P1/P2/P3`（模式一/二/三）、
+  `Side LED`（侧灯，F3009 对应页面被 `visible="0"` 隐藏）
+- `uires/xml/page_disk.xml` 是个"我的网盘"界面，和键盘毫无关系 ——
+  SOUI 自带的示例代码没删干净，读资源文件时别被它带偏
+- `uires/xml/macro.xml` 是宏编辑页的界面定义，可以做 UI 参照
+
 
 依赖：`pip install hidapi frida`（见 `tools/` 目录下各脚本头部说明）。
