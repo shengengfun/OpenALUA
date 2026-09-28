@@ -1,0 +1,14 @@
+[frida] spawned pid=10424
+[frida] hooked SET:HidD_SetFeature
+[frida] hooked GET:HidD_GetFeature
+[frida] hooked SETOUT:HidD_SetOutputReport
+[frida] hooked WRITE:WriteFile
+[frida] hook ready
+=== capturing 150 s — please operate the AULA tool now ===
+[WRITE ] WriteFile              len= 64  05 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+[WRITE ] WriteFile              len= 64  05 02 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+[WRITE ] WriteFile              len= 64  05 03 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+[WRITE ] WriteFile              len= 64  05 04 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+[SET   ] HidD_SetFeature        len=  8  07 f1 00 00 00 00 00 00
+[GET   ] HidD_GetFeature        len=  8  07 f1 00 00 00 00 00 00
+[SET   ] HidD_SetFeature        len=  8  07 ff ff 00 05 00 00 00

@@ -1,0 +1,28 @@
+# python env
+.venv/
+__pycache__/
+*.pyc
+
+# ── vendor binaries: NOT redistributable, kept locally for analysis only ──
+research/*.exe
+research/*.dll
+research/*.sys
+research/*.dmg
+research/*.zip
+research/*.msi
+research/*.pkg
+research/f2087pro/
+research/f3009mac/
+research/innoext/
+research/hub_index.html
+!research/README.md
+
+# editors / os
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini
+
+# scratch
+*.tmp
+out/

@@ -1,0 +1,672 @@
+﻿### walking C:\Program Files (x86)\AULA
+
+========================================================================
+--- F3001 三模机械键盘\ledeffect.xml  (1309 B) ---
+<?xml version="1.0"?>
+<effect sel="0">
+	<item speed="0" brightness="5" deriction="0" selection="0" />
+	<item speed="2" brightness="5" deriction="0" selection="0" />
+	<item speed="2" brightness="5" deriction="0" selection="0" />
+	<item speed="2" brightness="5" deriction="0" selection="0" />
+	<item speed="2" brightness="5" deriction="0" selection="0" />
+	<item speed="2" brightness="5" deriction="0" selection="0" />
+	<item speed="2" brightness="5" deriction="0" selection="0" />
+	<item speed="2" brightness="5" deriction="0" selection="0" />
+	<item speed="2" brightness="5" deriction="0" selection="0" />
+	<item speed="2" brightness="5" deriction="0" selection="0" />
+	<item speed="2" brightness="5" deriction="0" selection="0" />
+	<item speed="2" brightness="5" deriction="0" selection="0" />
+	<item speed="0" brightness="5" deriction="0" selection="0" />
+	<item speed="0" brightness="5" deriction="0" selection="0" />
+	<item speed="0" brightness="5" deriction="0" selection="0" />
+	<item speed="2" brightness="5" deriction="0" selection="0" />
+	<item speed="0" brightness="5" deriction="0" selection="0" />
+	<item speed="2" brightness="5" deriction="0" selection="0" />
+	<item speed="0" brightness="5" deriction="0" selection="0" />
+	<item speed="0" brightness="5" deriction="0" selection="0" />
+</effect>
+========================================================================
+--- F3001 三模机械键盘\macro.xml  (848 B) ---
+<?xml version="1.0"?>
+<config type="0" repeat="1" mode="0" delay="0" media="0" function="0" group="0" skcode="458772" play="0" />
+<macro>
+	<group name="Group 0">
+		<item code="458756" state="1" delay="110" name="A" />
+		<item code="458756" state="0" delay="264" name="A" />
+		<item code="458757" state="1" delay="93" name="B" />
+		<item code="458757" state="0" delay="341" name="B" />
+		<item code="458758" state="1" delay="85" name="C" />
+		<item code="458758" state="0" delay="845" name="C" />
+		<item code="458756" state="1" delay="101" name="A" />
+		<item code="458756" state="0" delay="655" name="A" />
+		<item code="458757" state="1" delay="79" name="B" />
+		<item code="458757" state="0" delay="303" name="B" />
+		<item code="458758" state="1" delay="101" name="C" />
+		<item code="458758" state="0" delay="0" name="C" />
+	</group>
+</macro>
+========================================================================
+--- F3001 三模机械键盘\record.xml  (883 B) ---
+<?xml version="1.0"?>
+<record code="70004" play="2" type="0" repeat="1" name="A" group="Group 0">
+	<item code="70004" state="1" delay="110" name="A" />
+	<item code="70004" state="0" delay="264" name="A" />
+	<item code="70005" state="1" delay="93" name="B" />
+	<item code="70005" state="0" delay="341" name="B" />
+	<item code="70006" state="1" delay="85" name="C" />
+	<item code="70006" state="0" delay="845" name="C" />
+	<item code="70004" state="1" delay="101" name="A" />
+	<item code="70004" state="0" delay="655" name="A" />
+	<item code="70005" state="1" delay="79" name="B" />
+	<item code="70005" state="0" delay="303" name="B" />
+	<item code="70006" state="1" delay="101" name="C" />
+	<item code="70006" state="0" delay="0" name="C" />
+</record>
+<record code="7003a" play="1" type="1" repeat="1" name="F1" group="Q">
+	<item code="70014" state="0" delay="0" name="" />
+</record>
+[scan] F3001 三模机械键盘\render-skia.dll (1319424 B)
+[scan] F3001 三模机械键盘\ShinetekTools.exe (3366328 B)
+========================================================================
+--- F3001 三模机械键盘\sidemodel.xml  (349 B) ---
+<?xml version="1.0"?>
+<effect sel="0">
+	<item brightness="4" />
+	<item brightness="4" />
+	<item brightness="4" />
+	<item brightness="7" />
+	<item brightness="7" />
+	<item brightness="7" />
+	<item brightness="7" />
+	<item brightness="7" />
+	<item brightness="7" />
+	<item brightness="7" />
+	<item brightness="7" />
+	<item brightness="7" />
+</effect>
+[scan] F3001 三模机械键盘\driver\x64\devcon.exe (137256 B)
+[scan] F3001 三模机械键盘\driver\x64\DPInst64.exe (893200 B)
+[scan] F3001 三模机械键盘\driver\x64\vhidflt.sys (94776 B)
+[scan] F3001 三模机械键盘\driver\x64\WdfCoinstaller01009.dll (1779792 B)
+[scan] F3001 三模机械键盘\driver\x86\devcon.exe (137280 B)
+[scan] F3001 三模机械键盘\driver\x86\DPInst32.exe (568584 B)
+[scan] F3001 三模机械键盘\driver\x86\vhidflt.sys (94776 B)
+[scan] F3001 三模机械键盘\driver\x86\WdfCoinstaller01009.dll (1779792 B)
+========================================================================
+--- F3001 三模机械键盘\uires\Translator\lang_cn.xml  (12887 B) ---
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<language name="简体中文" guid="{0DAEDE3C-6B94-4a81-9A55-C304FDD69D98}">
+
+  <context>
+
+    <!--没有上下文的翻译-->
+
+    <message><source>Mouse Left</source><translation>鼠标左键</translation></message>
+
+    <message><source>Mouse Right</source><translation>鼠标右键</translation></message>
+
+    <message><source>Mouse Center</source><translation>鼠标中键</translation></message>
+
+    <message><source>Mouse Left Side</source><translation>鼠标前进键</translation></message>
+
+    <message><source>Mouse Right Side</source><translation>鼠标后退键</translation></message>
+
+    <message><source>www back</source><translation>网页后退</translation></message>
+
+    <message><source>www forward</source><translation>网页前进</translation></message>
+
+    <message><source>www stop</source><translation>网页停止</translation></message>
+
+    <message><source>www refresh</source><translation>网页刷新</translation></message>
+
+    <message><source>www search</source><translation>网页搜索</translation></message>
+
+    <message><source>Favorite</source><translation>收藏夹</translation></message>
+
+    <message><source>Lock window</source><translation>锁屏</translation></message>
+
+    <message><source>Show desktop</source><translation>显示桌面</translation></message>
+
+    <message><source>Switch window</source><translation>切换窗口</translation></message>
+
+    <message><source>Minimize all window</source><translation>最小化所有窗口</translation></message>
+
+    <message><source>Close current window</source><translation>关闭当前窗口</translation></message>
+
+    <message><source>Minimize</source><translation>最小化</translation></message>
+
+    <message><source>Maxnimize</source><translation>最大化</translation></message>
+
+    <message><source>Loader</source><translation>自定义</translation></message>
+
+    <message><source>Close application</source><translation>关闭应用</translation></message>
+
+    <message><source>Layout</source><translation>布局</translation></message>
+
+    <message><source>Please update to the latest firmware to use</source><translation>请升级到最新版本再使用</translation></message>
+
+    <message><source>All settings will be restored, are you sure you want to continue?</source><translation>所有的设置将会被重置, 是否继续?</translation></message>
+
+    <message><source>The firmware is already the latest version and no upgrade is required.</source><translation>固件已经是最新版本，无需升级</translation></message>
+
+    <message><source>Warning</source><translation>警告</translation></message>
+
+    <message><source>Please insert USB device!</source><translation>请插入USB设备！
+...[截断]
+========================================================================
+--- F3001 三模机械键盘\uires\Translator\lang_en.xml  (695 B) ---
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<language name="English" guid="{23D209C4-2268-49A2-B7F4-8CB57D908D47}">
+
+  <context>
+
+    <!--没有上下文的翻译-->
+
+  </context>
+
+  <context name="messagebox">
+
+    <message>
+
+      <source>ok</source>
+
+      <translation>ok</translation>
+
+    </message>
+
+    <message>
+
+      <source>cancel</source>
+
+      <translation>cancel</translation>
+
+    </message>
+
+    <message>
+
+      <source>retry</source>
+
+      <translation>retry</translation>
+
+    </message>
+
+  </context>
+
+  <context name="dlg_main">
+
+    <message>
+
+      <source>close</source>
+
+      <translation>窓を閉じて</translation>
+
+    </message>
+
+    
+
+  </context>
+
+</language>
+========================================================================
+--- F3001 三模机械键盘\uires\uidef\init.xml  (504 B) ---
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<UIDEF>
+
+  <font face="微软雅黑" size="12"/>
+
+
+
+  <string src="values:string" />
+
+  <skin src="values:skin"/>
+
+  <color src="values:color"/>
+
+
+
+
+
+  <style>
+
+    <class name="normalbtn" colorText="#385e8b" colorTextDisable="#91a7c0" textMode="0x25" cursor="hand" margin-x="0"/>
+
+    <class name="cls_btn_weblink" cursor="hand" colorText="#1e78d5" colorTextHover="#1e78d5" fontHover="underline:1,italic:1" />
+
+  </style>
+
+
+
+  <objattr>
+
+  </objattr>
+
+</UIDEF>
+========================================================================
+--- F3001 三模机械键盘\uires\values\color.xml  (226 B) ---
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+
+
+<color>
+
+  <red value="rgb(255,0,0)"/>
+
+  <green value="rgb(0,255,0)"/>
+
+  <blue value="rgb(0,0,255)"/>
+
+  <white value="rgb(255,255,255)"/>
+
+  <gray value="#808080"/>
+
+</color>
+========================================================================
+--- F3001 三模机械键盘\uires\values\skin.xml  (3491 B) ---
+<?xml version="1.0" encoding="utf-8"?>
+<skin>
+	<imglist name="skin_traymenu_icons" src="img:traymenu_icons" states="9" />
+	<imgframe name="skin_bg_png" src="kb_macro:bg_png" />
+	<imglist name="skin_ico_keyboard_table_png" src="main:ico_keyboard_table_png" states="3" />
+	<imglist name="skin_table_main_bg_png" src="main:table_main_bg_png" states="3" />
+	<imglist name="skin_table_main_checked_png" src="main:table_main_checked_png" states="2" />
+	<imglist name="skin_table_main_float_png" src="main:table_main_float_png" states="3" />
+	<imglist name="skin_table_main_icon_png" src="main:table_main_icon_png" states="3" />
+	<imglist name="skin_state_func_bg_png" src="main:state_func_bg_png" states="3" />
+  <imglist name="skin_state_funcc_bg_png" src="main:state_funcc_bg_png" states="3" />
+	<imgframe name="skin_ioc_func_macro_png" src="main:ioc_func_macro_png" />
+	<imgframe name="skin_ioc_func_rgb_png" src="main:ioc_func_rgb_png" />
+	<imgframe name="skin_cbox_profile_normal_png" src="main:cbox_profile_normal_png" />
+	<imgframe name="skin_cbox_profile_selected_png" src="main:cbox_profile_selected_png" />
+	<imgframe name="skin_cbox_profile_ico_png" src="main:cbox_profile_ico_png" />
+	<imgframe name="skin_img_keboard_normal_png" src="main:img_keboard_normal_png" />
+	<imgframe name="skin_img_keboard_floating_png" src="main:img_keboard_floating_png" />
+	<imgframe name="skin_img_keboard_pressed_png" src="main:img_keboard_pressed_png" />
+	<imgframe name="skin_img_keboard_checked_png" src="main:img_keboard_checked_png" />
+	<imgframe name="skin_win_macro_bg_png" src="main:win_macro_bg_png" />
+	<imgframe name="skin_bg_macr_keys_png" src="main:bg_macr_keys_png" />
+	<imglist name="skin_state_del_png" src="main:state_del_png" states="3" />
+	<imglist name="skin_state_add_png" src="main:state_add_png" states="3" />
+	<imglist name="skin_state_capture_png" src="main:state_capture_png" states="3" />
+	<imglist name="skin_state_import_png" src="main:state_import_png" states="3" />
+	<imglist name="skin_state_export_png" src="main:state_export_png" states="3" />
+	<imglist name="skin_state_up_png" src="main:state_up_png" states="3" />
+	<imglist name="skin_state_down_png" src="main:state_down_png" states="3" />
+	<imglist name="skin_state_record_png" src="main:state_record_png" states="3" autoFit="1" tile="0" />
+	<imglist name="skin_state_ok_png" src="main:state_ok_png" states="3" />
+	<imglist name="skin_state_cancel_png" src="main:state_cancel_png" states="3" />
+	<imgframe name="skin_bg_ma
+...[截断]
+========================================================================
+--- F3001 三模机械键盘\uires\values\string.xml  (175 B) ---
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+  <string>
+
+    <title value="AULA  F3001三模"/>
+
+    <ver value="1.21"/>
+
+    <product value="AULA  F3001三模"/>
+
+  </string>
+========================================================================
+--- F3001 三模机械键盘\uires\xml\dlg_main.xml  (12823 B) ---
+<?xml version="1.0"?>
+<SOUI trCtx="dlg_main" name="mainWindow" title="@string/title" bigIcon="ICON_LOGO:32" smallIcon="ICON_LOGO:16" resize="0" width="1024" height="640" margin="20,5,5,5" resizable="0" wndType="appMain" appWnd="1">
+  <root skin="skin_bg_png" cache="1">
+    <caption pos="0,0,-0,30" show="1">
+      <icon pos="10,8" src="ICON_LOGO:18" />
+      <text colorText="#ffffff" name="title" width="870" pos="[40,{0" align="center" visible="0">www.xxxxx.net</text>
+      <imgbtn name="btn_more" size="36,25" skin="skin_more_menu_png" pos="-83,0" animate="1" visible="0" />
+      <imgbtn name="btn_min" skin="_skin.sys.btn.close" pos="-45,0" animate="1" />
+      <!--<imgbtn name="btn_close" skin="_skin.sys.btn.close" pos="-45,0" animate="1" />
+			<imgbtn name="btn_min" skin="_skin.sys.btn.minimize" pos="-83,0" animate="1" show="0" />-->
+    </caption>
+    <shellnotifyicon id="110" tip="@string/product" menu="SMENU:menu_tray" ico="ICON_LOGO:16" />
+    <tabctrl2 size="1024, 610" tabPos="0" tabAlign="bottom" colorText="#ffffff" pos="0,30" show="1" curSel="0" focusable="0" tabHeight="0" iconSkin="skin_table_main_icon_png" text-y="50" icon-x="12" tabInterSize="0" tabSkin="skin_table_main_bg_png">
+      <page2 title="" tip="Keyboard">
+        <tabctrl pos="[5,[20" size="1014,600" tabAlign="left" tabSkin="skin_state_func_bg_png" tabInterSize="2" tabWidth="180" tabHeight="80" colorText="#FFFFFF" focusable="0" show="1" curSel="0" font="face:微软雅黑,size:14">
+          <page title="Macro" tip="Macro" width="744">
+            <cbimg pos="120,100" size="600, 291" name="img_keyboard" type="0" bg="main:img_keboard_normal_png" chking="main:img_keboard_floating_png" chked="main:img_keboard_checked_png" crdxml="/positions.xml" colorBkgnd="#ffffffff" skin="skin_img_keboard_floating_png" />
+          </page>
+          <page title="Panel LED" tip="Panel LED" offset="12">
+            <text pos="152,70" width="200" align="right">Color effects</text>
+            <combobox name="cbx_color_effect" inset="10, 0" size="260, 30" dropDown="1" dotted="0" animateTime="200" curSel="0" drawFocusRect="0" colorText="#ffffffff" pos="354,64" btnSkin="skin_icon_color_effects_png" autoFitDropBtn="1" skin="skin_state_color_effects_png" offset="0, 0">
+              <liststyle iconSkin="" itemSkin="" itemHeight="24" colorText="#000000" colorSelText="#FFFFFF" colorItemBkgnd="#FFFFFF" colorItemSelBkgnd="rgb(51,153,255)" />
+              <editstyle inset="5,0,5,0" colorText="#000000" align="left" colorBkg
+...[截断]
+========================================================================
+--- F3001 三模机械键盘\uires\xml\dlg_tray.xml  (1276 B) ---
+<?xml version="1.0"?>
+<SOUI name="mainWindow" width="200" height="700" margin="20,5,5,5" translucent="1">
+	<root cache="1">
+		<window pos="|0,-120,@120,@120" offset="-0.5,0" name="speed_wnd" msgTransparent="1">
+			<window pos="40,|0,@73,@88" offset="0, -0.5">
+				<img skin="skin.nmonitor" />
+				<text pos="-18,|-3" offset="-1,-1" colorText="#8E8E8E">k/s</text>
+				<text pos="{-1,{0" offset="-1,0" colorText="#ffffff" name="update_speed">0</text>
+				<text pos="-18,|3" offset="-1,0" colorText="#8E8E8E">k/s</text>
+				<text pos="{-1,{0" offset="-1,0" colorText="#ffffff" name="down_speed">0.3</text>
+			</window>
+		</window>
+		<window pos="0,-120,@120,@120">
+			<anmimg pos="0,0,-0,-0" ani_in="skin.anim.animation" static="skin.bg_normal" playall="0" autorun="0" interval="35" name="btn_use_bg" show="1" />
+			<window pos="|0,|0" offset="-0.5,-0.5" name="use" show="1" msgTransparent="1">
+				<img pos="0,0" skin="skin.number_4" name="use_ten" show="1" />
+				<img pos="[0,0" skin="skin.number_8" name="use_unit" />
+				<img pos="[0,0" skin="skin.number_" />
+			</window>
+		</window>
+		<rocketAnimator pos="0,0,-0,-0" skin="skin.rocket_quick" show="0" name="rocket" speed="10" steps="40" interpolator="Accelerate" />
+		<caption pos="0,0,-0,-0" show="1" />
+	</root>
+</SOUI>
+========================================================================
+--- F3001 三模机械键盘\uires\xml\macro.xml  (8871 B) ---
+<?xml version="1.0"?>
+<SOUI name="window" title="Layout" bigIcon="ICON_LOGO:32" smallIcon="ICON_LOGO:16" width="750" height="600" margin="1,5,5,5" wndType="8" appWnd="1">
+  <root cache="1">
+    <window pos="0,0" colorBkgnd="#ffffffff" skin="skin_win_macro_bg_png" size="750, 600" font="face:微软雅黑,size:12">
+      <caption pos="-76,0" focusable="1" drawfocusrect="0">
+        <imgbtn name="btnMin" skin="_skin.sys.btn.minimize" pos="0,0" animate="1" />
+        <imgbtn name="btnRestore" skin="_skin.sys.btn.restore" pos="38,0" show="0" animate="1" />
+        <imgbtn name="btnCancel" skin="_skin.sys.btn.close" pos="38,0" tip="close" animate="1" />
+      </caption>
+      <text pos="20,10" colorText="#ffffffff">Recording keys</text>
+      <text name="text_recording_keys" pos="20,[6" size="712, 40" cueText="" colorText="#ffffffff" skin="skin_bg_macr_keys_png" notifyChange="1" colorTextHover="#ffffffff" inset="20,0" />
+      <tabctrl2 name="tab_macro_mode_selection" size="712,460" tabAlign="top" colorText="#ffffff" pos="20,80" show="1" curSel="3" focusable="0" tabHeight="40" tabSkin="skin_state_func_bg_png" text-y="12" icon-x="12" layout_gravity="bottom" tabWidth="180" colorBkgnd="#44444488" font="face:微软雅黑,size:12">
+        <page2 title="Macro key" tip="Macro key">
+          <imgbtn pos="540,8" size="32, 32" name="item_up" tip="" animate="1" skin="skin_state_up_png" />
+          <imgbtn pos="580,8" size="32, 32" name="item_down" tip="" animate="1" skin="skin_state_down_png" />
+          <imgbtn pos="620,8" size="32, 32" name="item_delete" tip="" animate="1" skin="skin_state_del_png" />
+          <imgbtn pos="660,8" size="32, 32" name="item_clear" tip="" animate="1" skin="skin_state_clear_png" />
+          <text pos="246,20" colorText="#ffffffff">Keys and delay</text>
+          <text pos="18,22" colorText="#ffffffff">Macro Group</text>
+          <imgbtn pos="150,8" size="32, 32" tip="" animate="1" skin="skin_state_del_png" name="groupDel" />
+          <imgbtn pos="200,8" size="32, 32" tip="" animate="1" skin="skin_state_add_png" name="groupAdd" />
+          <imgbtn pos="172,8" size="0, 0" tip="" animate="1" skin="skin_state_import_png" name="groupImport" />
+          <imgbtn pos="200,8" size="0, 0" tip="" animate="1" skin="skin_state_export_png" name="groupExport" />
+          <listview size="216, 272" dividerSize="0" wantTab="1" pos="18,48" skin="skin_bg_macro_group_png" name="macro_group" dividerSkin="skin_state_func_bg_png">
+            <template itemHeight="40" col
+...[截断]
+========================================================================
+--- F3001 三模机械键盘\uires\xml\page_box.xml  (1802 B) ---
+<?xml version="1.0"?>
+<include>
+	<window pos="0,[0,-0,-0" colorBkgnd="#FFFFFF">
+		<window pos="|-388,|-172,@776,@344">
+			<text pos="0,0,-0,@23" align="center"  colorText="#333333">功能宝箱</text>
+			<text pos="0,[13,-0,@20" align="center" colorText="#999999">更多功能，带给您更贴心的体验</text>
+			<imgbtn pos="0,85,@250,@124" skin="skin_func_box_btnbkg" animate="1">
+				<img pos="20,20" skin="skin_func_box_phone" />
+				<text pos="114,39" class="font:big_3">手机忘带</text>
+				<text pos="{0,[7" class="font:small_gray">轻松查看来电、短信</text>
+			</imgbtn>
+			<imgbtn pos="[12,{0,@250,@124" skin="skin_func_box_btnbkg" animate="1">
+				<img pos="20,20" skin="skin_func_box_datacable" />
+				<text pos="114,39" class="font:big_3">数据线</text>
+				<text pos="{0,[7" class="font:small_gray">手机和电脑无线传输</text>
+			</imgbtn>
+			<imgbtn pos="[12,{0,@250,@124" skin="skin_func_box_btnbkg" animate="1">
+				<img pos="20,20" skin="skin_func_box_backup" />
+				<img pos="-68,0" skin="skin_func_box_viponly" />
+				<text pos="114,39" class="font:big_3">自动备份</text>
+				<text pos="{0,[7" class="font:small_gray">随时备份，告别丢失</text>
+			</imgbtn>
+			<imgbtn pos="0,220,@250,@124" skin="skin_func_box_btnbkg" animate="1">
+				<img pos="20,20" skin="skin_func_box_recycle" />
+				<text pos="114,39" class="font:big_3">回收站</text>
+				<text pos="{0,[7" class="font:small_gray">帮你找回删除文件</text>
+			</imgbtn>
+			<imgbtn pos="[12,{0,@250,@124" skin="skin_func_box_btnbkg" animate="1">
+				<img pos="20,20" skin="skin_func_box_lock" />
+				<text pos="114,39" class="font:big_3">锁定网盘</text>
+				<text pos="{0,[7" class="font:small_gray">防止他人偷窥数据</text>
+			</imgbtn>
+		</window>
+	</window>
+</include>
+========================================================================
+--- F3001 三模机械键盘\uires\xml\page_disk.xml  (8226 B) ---
+<?xml version="1.0"?>
+<include>
+	<window pos="0,[0,-0,-0" colorBkgnd="#FFFFFF">
+		<!-- Tool Bar -->
+		<window skin="skin_toolbar_bk" pos="0,[0,-0,@40">
+			<iconbtn animate="1" name="btn_tb_upload" pos="10,5,@77,@30" skin="skin_toolbar_btn_bk" iconSkin="skin_toolbar_ico_upload" class="cls_toolbar_btn">上传</iconbtn>
+			<iconbtn animate="1" name="btn_tb_download" pos="[10,5,@77,@30" skin="skin_toolbar_btn_bk" iconSkin="skin_toolbar_ico_download" class="cls_toolbar_btn">下载</iconbtn>
+			<iconbtn animate="1" name="btn_tb_share" pos="[10,5,@77,@30" skin="skin_toolbar_btn_bk" iconSkin="skin_toolbar_ico_share" class="cls_toolbar_btn">分享</iconbtn>
+			<iconbtn animate="1" name="btn_tb_share" pos="[10,5,@77,@30" skin="skin_toolbar_btn_bk" iconSkin="skin_toolbar_ico_delete" class="cls_toolbar_btn">删除</iconbtn>
+			<iconbtn animate="1" name="btn_tb_new_dir" pos="[10,5,@112,@30" skin="skin_toolbar_btn_bk" iconSkin="skin_toolbar_ico_new_dir" class="cls_toolbar_btn">新建文件夹</iconbtn>
+			<iconbtn animate="1" name="btn_tb_offline_down" pos="[10,5,@110,@30" skin="skin_toolbar_btn_bk" iconSkin="skin_toolbar_ico_offline_down" class="cls_toolbar_btn">离线下载</iconbtn>
+			<iconbtn animate="1" name="btn_tb_more" pos="[10,5,@77,@30" skin="skin_toolbar_btn_bk" iconSkin="skin_toolbar_ico_more" class="cls_toolbar_btn">更多</iconbtn>
+		</window>
+		<!-- Navigation Bar -->
+		<window skin="skin_navigator_bkg" pos="0,[0,-0,@40">
+			<imgbtn animate="1" name="btn_navi_go_back" pos="24,12" skin="skin_navi_back" />
+			<imgbtn animate="1" name="btn_navi_go_next" pos="[17,12" skin="skin_navi_next" />
+			<imgbtn animate="1" name="btn_navi_history" pos="[10,12" skin="skin_navi_drop_arrow" />
+			<window skin="skin_navi_address_bkg" pos="[10,5,]-7,@30">
+				<!-- Home 一直存在，其它元素动态添加和删除 -->
+				<window pos="0,1,@100,-1" ncSkin="skin_navi_path_bkg" trackMouseEvent="1" margin-x="1" margin-y="1">
+					<iconbtn animate="1" name="btn_navi_home" pos="0,0,-15,-0" skin="skin_navi_path_inner_bkg" iconSkin="skin_navi_home" class="cls_navi_path">我的网盘</iconbtn>
+					<imgbtn animate="1" name="btn_navi_home_drop" pos="[0,5" skin="skin_navi_down_arrow" />
+				</window>
+				<window pos="[0,1,@100,-1" ncSkin="skin_navi_path_bkg" trackMouseEvent="1" margin-x="1" margin-y="1">
+					<imgbtn animate="1" id="20001" pos="0,0,-15,-0" skin="skin_navi_path_inner_bkg" class="cls_navi_path">Program files</imgbtn>
+					<imgbtn animate="1" id="30001" pos="[0,5" skin="skin_navi_down_arrow" />
+				</window>
+				<window pos="[0,1,@100,-1" ncSk
+...[截断]
+========================================================================
+--- F3001 三模机械键盘\uires\xml\page_safe.xml  (680 B) ---
+<?xml version="1.0"?>
+<include>
+	<window pos="0,[0,-0,-0" colorBkgnd="#FFFFFF">
+		<window pos="|-237,|-97,@474,@194">
+			<img pos="0,0" skin="skin_safebox_ico" />
+			<text pos="173,25,@290,@20" colorText="#3C6889">启用隐藏空间保存你的私密文件吧~</text>
+			<imgbtn pos="{0,87,@170,@46" skin="skin_safebox_btn_bk" colorText="#FFFFFF">启用隐藏空间</imgbtn>
+			<link pos="[20,[-16" class="cls_link">隐藏空间是什么？</link>
+			<text pos="0,[16" class="font:small_3">小贴士：</text>
+			<text pos="0,[5" class="font:small_3">隐藏空间中的文件目前仅能在云管家中查看，且不支持分享给好友</text>
+		</window>
+	</window>
+</include>
+========================================================================
+--- F3001 三模机械键盘\uires\xml\page_share.xml  (2040 B) ---
+<?xml version="1.0"?>
+<include>
+	<window pos="0,[0,-0,-0" colorBkgnd="#FFFFFF">
+		<window pos="0,0,@65,-0" skin="skin_sharepanel_leftpanelbkg">
+			<radioex pos="0,65" id="30000" skin="skin_sharepanel_session" checked="1">
+				<text pos="0,-36,-0,-0" class="cls_share_panel_btn">会话</text>
+			</radioex>
+			<radioex pos="0,[0" id="30001" skin="skin_sharepanel_friend">
+				<text pos="0,-36,-0,-0" class="cls_share_panel_btn">好友</text>
+			</radioex>
+			<radioex pos="0,[0" id="30002" skin="skin_sharepanel_group">
+				<text pos="0,-36,-0,-0" class="cls_share_panel_btn">群组</text>
+			</radioex>
+			<imgbtn animate="1" name="btn_share_add" pos="8,-55" skin="skin_sharepanel_addbtn" />
+		</window>
+		<tabctrl name="tab_share_panel" pos="[0,0,-1,-1" animateSteps="0" tabHeight="0" cursel="0">
+			<page title="会话">
+				<window pos="|-182,|-135,@364,@270">
+					<img pos="0,0" skin="skin_sharepanel_emptysession" />
+					<text pos="0,[15,-0,@30" class="font:small_gray_3" align="center">给好友分享上百张图片，仅需2步~</text>
+					<imgbtn animate="1" pos="118,[20,@127,@36" skin="skin_sharepanel_sharefilebtn" class="font:w_small_3">给好友分享文件</imgbtn>
+				</window>
+			</page>
+			<page title="好友">
+				<window pos="|-182,|-135,@364,@270">
+					<img pos="92,0" skin="skin_sharepanel_empty" />
+					<text pos="0,[15,-0,@30" class="font:small_gray_3" align="center">你还没有好友，添加好友分享文件吧~</text>
+					<imgbtn animate="1" pos="118,[20,@127,@36" skin="skin_sharepanel_sharefilebtn" class="font:w_small_3">给好友分享文件</imgbtn>
+				</window>
+			</page>
+			<page title="群组">
+				<window pos="|-182,|-135,@364,@270">
+					<img pos="92,0" skin="skin_sharepanel_empty" />
+					<text pos="0,[15,-0,@30" class="font:small_gray_3" align="center">你还没有加入群哦~</text>
+					<imgbtn animate="1" pos="118,[20,@127,@36" skin="skin_sharepanel_sharefilebtn" class="font:w_small_3">给好友分享文件</imgbtn>
+				</window>
+			</page>
+		</tabctrl>
+	</window>
+</include>
+========================================================================
+--- F3001 三模机械键盘\uires\xml\sys_xml_msgbox.xml  (1826 B) ---
+<?xml version="1.0"?>
+<SOUI title="mesagebox" width="360" height="160" appwin="0" frameSize="40,40,10,60" minSize="300,132" resize="0" translucent="1" trCtx="messagebox">
+	<style>
+		<!--<class name="normalbtn" skin="_skin.sys.btn.normal" font="" colorText="#385e8b" colorTextDisable="#91a7c0" textMode="0x25" cursor="hand" margin-x="0" />-->
+		<class name="normalbtn" skin="skin_state_cancel_png" colorText="#ffffffff" font="" colorTextDisable="#91a7c0" textMode="0x25" cursor="hand" margin-x="0" />
+	</style>
+	<buttonText>
+		<ok>OK</ok>
+		<cancel>Cancel</cancel>
+		<abort>Abort</abort>
+		<retry>Retry</retry>
+		<yes>Yes</yes>
+		<no>No</no>
+		<ignore>Ignore</ignore>
+	</buttonText>
+	<root skin="skin_bg_macro_group_png" alpha="200">
+		<caption id="101" pos="0,0,-0,29">
+			<text pos="11,9" class="cls_txt_red" name="msgtitle" colorText="#ffffffff">title</text>
+			<imgbtn id="2" skin="_skin.sys.btn.close" pos="-45,0" tip="close" />
+		</caption>
+		<window pos="5,40,-5,-60">
+			<icon name="msgicon" pos="8,0,@32,@32" display="0" />
+			<text name="msgtext" extend="5,5,5,5" colorText="#ffffffff" multilines="1" valign="middle" width="-2" />
+		</window>
+		<tabctrl name="btnSwitch" pos="0,-50,-0,-0" tabHeight="0">
+			<page>
+				<button pos="|-50,10,|50,-10" name="button1st" class="normalbtn">button1</button>
+			</page>
+			<page>
+				<button pos="|-100,10,|-10,-10" name="button1st" class="normalbtn">button1</button>
+				<button pos="|10,10,|100,-10" name="button2nd" class="normalbtn">button2</button>
+			</page>
+			<page>
+				<button pos="|-140,10,|-50,-10" name="button1st" class="normalbtn">button1</button>
+				<button pos="|-45,10,|45,-10" name="button2nd" class="normalbtn">button2</button>
+				<button pos="|50,10,|140,-10" name="button3rd" class="normalbtn">button3</button>
+			</page>
+		</tabctrl>
+	</root>
+</SOUI>
+
+========================================================================
+### keyword hits
+
+--- sleep  (9) ---
+  [F3001 三模机械键盘\render-skia.dll] Sleep
+  [F3001 三模机械键盘\ShinetekTools.exe] Sleep
+  [F3001 三模机械键盘\ShinetekTools.exe [u16]] System Sleep
+  [F3001 三模机械键盘\driver\x64\devcon.exe] Sleep
+  [F3001 三模机械键盘\driver\x64\DPInst64.exe] Sleep
+  [F3001 三模机械键盘\driver\x64\WdfCoinstaller01009.dll] Sleep
+  [F3001 三模机械键盘\driver\x86\devcon.exe] Sleep
+  [F3001 三模机械键盘\driver\x86\DPInst32.exe] Sleep
+  [F3001 三模机械键盘\driver\x86\WdfCoinstaller01009.dll] Sleep
+
+--- hz  (64) ---
+  [F3001 三模机械键盘\render-skia.dll] Fxhz
+  [F3001 三模机械键盘\ShinetekTools.exe] hhzh
+  [F3001 三模机械键盘\ShinetekTools.exe] hzzC
+  [F3001 三模机械键盘\ShinetekTools.exe] " id="W5M0MpCehiHzreSzNTczkc9d"?> <x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 5.0-c060 61.134777, 2010/02/12-17:32:00        "> <rdf:RDF xmlns:r
+  [F3001 三模机械键盘\ShinetekTools.exe] " id="W5M0MpCehiHzreSzNTczkc9d"?>
+  [F3001 三模机械键盘\driver\x64\WdfCoinstaller01009.dll] ekHZ_/mtj
+  [F3001 三模机械键盘\driver\x64\WdfCoinstaller01009.dll] SHZ_3
+  [F3001 三模机械键盘\driver\x64\WdfCoinstaller01009.dll] l4Zhz
+  [F3001 三模机械键盘\driver\x64\WdfCoinstaller01009.dll] m5Hz[
+  [F3001 三模机械键盘\driver\x64\WdfCoinstaller01009.dll] hZTB>h
+  [F3001 三模机械键盘\driver\x64\WdfCoinstaller01009.dll] tS0hZ[+
+  [F3001 三模机械键盘\driver\x64\WdfCoinstaller01009.dll] G`EhZ>
+  [F3001 三模机械键盘\driver\x64\WdfCoinstaller01009.dll] Hz{7
+  [F3001 三模机械键盘\driver\x64\WdfCoinstaller01009.dll] \)hz
+  [F3001 三模机械键盘\driver\x64\WdfCoinstaller01009.dll] m|hz
+  [F3001 三模机械键盘\driver\x64\WdfCoinstaller01009.dll] HZI{wM~
+  [F3001 三模机械键盘\driver\x64\WdfCoinstaller01009.dll] Hzf]s
+  [F3001 三模机械键盘\driver\x64\WdfCoinstaller01009.dll] Hzsa
+  [F3001 三模机械键盘\driver\x64\WdfCoinstaller01009.dll] cHzn
+  [F3001 三模机械键盘\driver\x64\WdfCoinstaller01009.dll] dHzY?
+  [F3001 三模机械键盘\driver\x64\WdfCoinstaller01009.dll] kGHz
+  [F3001 三模机械键盘\driver\x64\WdfCoinstaller01009.dll] /2fHZ
+  [F3001 三模机械键盘\driver\x64\WdfCoinstaller01009.dll] "`hZ
+
+--- timer  (14) ---
+  [F3001 三模机械键盘\ShinetekTools.exe] GL_EXT_timer_query
+  [F3001 三模机械键盘\ShinetekTools.exe] GL_ARB_timer_query
+  [F3001 三模机械键盘\ShinetekTools.exe] SetTimer
+  [F3001 三模机械键盘\ShinetekTools.exe] KillTimer
+  [F3001 三模机械键盘\ShinetekTools.exe] .?AV?$SSingleton2@VSTimer2@SOUI@@@SOUI@@
+  [F3001 三模机械键盘\ShinetekTools.exe] .?AV?$SSingleton2@VSScriptTimer@SOUI@@@SOUI@@
+  [F3001 三模机械键盘\ShinetekTools.exe] .?AV?$SCmnMap@UtagTIMERINFO@SOUI@@I@SOUI@@
+  [F3001 三模机械键盘\ShinetekTools.exe] .?AV?$SCmnMap@USCRIPTTIMERINFO@SOUI@@I@SOUI@@
+  [F3001 三模机械键盘\ShinetekTools.exe] .?AV?$SSingletonMap@VSTimer2@SOUI@@UtagTIMERINFO@2@I@SOUI@@
+  [F3001 三模机械键盘\ShinetekTools.exe] .?AVSTimer2@SOUI@@
+  [F3001 三模机械键盘\ShinetekTools.exe] .?AV?$SSingletonMap@VSScriptTimer@SOUI@@USCRIPTTIMERINFO@2@I@SOUI@@
+  [F3001 三模机械键盘\ShinetekTools.exe] .?AVSScriptTimer@SOUI@@
+  [F3001 三模机械键盘\ShinetekTools.exe] .?AVEventTimer@SOUI@@
+  [F3001 三模机械键盘\ShinetekTools.exe [u16]] Eon_timer
+
+--- timeout  (4) ---
+  [F3001 三模机械键盘\ShinetekTools.exe [u16]] handle=%08x, data=%08x, len=%d, timeout=%d
+
+--- ledeffect  (1) ---
+  [F3001 三模机械键盘\ShinetekTools.exe [u16]] \ledeffect.xml
+
+--- setting  (40) ---
+  [F3001 三模机械键盘\ShinetekTools.exe [u16]] All settings will be restored, are you sure you want to continue?
+  [F3001 三模机械键盘\driver\x64\DPInst64.exe [u16]] Error encountered while setting installer information for driver store
+  [F3001 三模机械键盘\driver\x64\DPInst64.exe [u16]] Unable to find any property setting lines in AddProperty section %ws in inf %ws
+  [F3001 三模机械键盘\driver\x64\vhidflt.sys] URB_FUNCTION_SELECT_CONFIGURATION[prv] interface: len=%08x itfnum=%08x setting=%08x class=%08x subclass=%08x protoc=%08x pipis=%08x handle=%08x
+  [F3001 三模机械键盘\driver\x64\vhidflt.sys] URB_FUNCTION_CLASS_INTERFACE[prv] interface: len=%08x itfnum=%08x setting=%08x class=%08x subclass=%08x protoc=%08x pipis=%08x handle=%08x
+  [F3001 三模机械键盘\driver\x64\vhidflt.sys] URB_FUNCTION_SELECT_CONFIGURATION[cmp] interface: len=%08x itfnum=%08x setting=%08x class=%08x subclass=%08x protoc=%08x pipis=%08x handle=%08x
+  [F3001 三模机械键盘\driver\x64\vhidflt.sys] URB_FUNCTION_CLASS_INTERFACE[cmp] interface: len=%08x itfnum=%08x setting=%08x class=%08x subclass=%08x protoc=%08x pipis=%08x handle=%08x
+  [F3001 三模机械键盘\driver\x64\WdfCoinstaller01009.dll [u16]] SetFakeSystemRestorePoint: Error setting restore point description
+  [F3001 三模机械键盘\driver\x64\WdfCoinstaller01009.dll [u16]] DoBootStuff: ConfigureServiceSettings returned %s
+  [F3001 三模机械键盘\driver\x64\WdfCoinstaller01009.dll [u16]] ConfigureServiceSettingsInRegistry: Invalid Parameter
+  [F3001 三模机械键盘\driver\x64\WdfCoinstaller01009.dll [u16]] ConfigureServiceSettingsInRegistry: RegOpenKeyEx(HKEY_LOCAL_MACHINE\%s)
+  [F3001 三模机械键盘\driver\x64\WdfCoinstaller01009.dll [u16]] ConfigureServiceSettingsInRegistry failed: %s
+  [F3001 三模机械键盘\driver\x64\WdfCoinstaller01009.dll [u16]] ConfigureServiceSettingsInRegistry: RegOpenKeyEx(HKEY_LOCAL_MACHINE\%s\%s)
+  [F3001 三模机械键盘\driver\x64\WdfCoinstaller01009.dll [u16]] ConfigureServiceSettingsInRegistry: RegSetValueEx(%s) value %d
+  [F3001 三模机械键盘\driver\x64\WdfCoinstaller01009.dll [u16]] ConfigureServiceSettingsInRegistry: RegQueryValueEx(%s) value %s
+  [F3001 三模机械键盘\driver\x64\WdfCoinstaller01009.dll [u16]] ConfigureServiceSettings: OpenService Servicename %s, error %s
+  [F3001 三模机械键盘\driver\x64\WdfCoinstaller01009.dll [u16]] ConfigureServiceSettings: LocalAlloc failed, error %s
+  [F3001 三模机械键盘\driver\x64\WdfCoinstaller01009.dll [u16]] ConfigureServiceSettings: QueryServiceConfig failed, error %s
+  [F3001 三模机械键盘\driver\x64\WdfCoinstaller01009.dll [u16]] ConfigureServiceSettings: QueryServiceConfig returned invalid information
+  [F3001 三模机械键盘\driver\x86\DPInst32.exe [u16]] Error encountered while setting installer information for driver store
+  [F3001 三模机械键盘\driver\x86\DPInst32.exe [u16]] Unable to find any property setting lines in AddProperty section %ws in inf %ws
+  [F3001 三模机械键盘\driver\x86\vhidflt.sys] URB_FUNCTION_SELECT_CONFIGURATION[prv] interface: len=%08x itfnum=%08x setting=%08x class=%08x subclass=%08x protoc=%08x pipis=%08x handle=%08x
+  [F3001 三模机械键盘\driver\x86\vhidflt.sys] URB_FUNCTION_CLASS_INTERFACE[prv] interface: len=%08x itfnum=%08x setting=%08x class=%08x subclass=%08x protoc=%08x pipis=%08x handle=%08x
+  [F3001 三模机械键盘\driver\x86\vhidflt.sys] URB_FUNCTION_SELECT_CONFIGURATION[cmp] interface: len=%08x itfnum=%08x setting=%08x class=%08x subclass=%08x protoc=%08x pipis=%08x handle=%08x
+
+--- config  (43) ---
+  [F3001 三模机械键盘\macro.xml] <config type="0" repeat="1" mode="0" delay="0" media="0" function="0" group="0" skcode="458772" play="0" />
+  [F3001 三模机械键盘\readme.txt] config
+  [F3001 三模机械键盘\render-skia.dll] Config Conversion
+  [F3001 三模机械键盘\render-skia.dll] .?AV?$SkTArray@UVerifiedColorConfigs@GrGLCaps@@$00@@
+  [F3001 三模机械键盘\render-skia.dll] .?AVGrConfigConversionEffect@@
+  [F3001 三模机械键盘\render-skia.dll] .?AV?$GrTBackendProcessorFactory@VGrConfigConversionEffect@@VGrBackendFragmentProcessorFactory@@VGrFragmentProcessor@@VGrGLFragmentProcessor@@@@
+  [F3001 三模机械键盘\render-skia.dll] .?AVGrGLConfigConversionEffect@@
+  [F3001 三模机械键盘\ShinetekTools.exe] Config Conversion
+  [F3001 三模机械键盘\ShinetekTools.exe] .?AV?$SkTArray@UVerifiedColorConfigs@GrGLCaps@@$00@@
+  [F3001 三模机械键盘\ShinetekTools.exe] .?AVGrConfigConversionEffect@@
+  [F3001 三模机械键盘\ShinetekTools.exe] .?AV?$GrTBackendProcessorFactory@VGrConfigConversionEffect@@VGrBackendFragmentProcessorFactory@@VGrFragmentProcessor@@VGrGLFragmentProcessor@@@@
+  [F3001 三模机械键盘\ShinetekTools.exe] .?AVGrGLConfigConversionEffect@@
+  [F3001 三模机械键盘\ShinetekTools.exe [u16]] config
+  [F3001 三模机械键盘\ShinetekTools.exe [u16]] config.xml
+  [F3001 三模机械键盘\driver\x64\DPInst64.exe [u16]] Current configuration does not support UI language 0x%X.
+  [F3001 三模机械键盘\driver\x64\vhidflt.sys] URB_FUNCTION_SELECT_CONFIGURATION[prv] config: len=%08x type=%08x total=%08x num=%08x value=%08x icfg=%08x attr=%08x power=%08x, handle=%08x
+  [F3001 三模机械键盘\driver\x64\vhidflt.sys] URB_FUNCTION_SELECT_CONFIGURATION[prv] ep: type=%08x addr=%08x maxsize=%08x trsfsize=%08x flags=%08x interval=%08x handle=%08x
+  [F3001 三模机械键盘\driver\x64\vhidflt.sys] URB_FUNCTION_CLASS_INTERFACE[prv] config: handle=%08x
+  [F3001 三模机械键盘\driver\x64\vhidflt.sys] HidFltCompletionRoutineSelectConfiguration: code %08x, len:%d
+  [F3001 三模机械键盘\driver\x64\vhidflt.sys] HidFltCompletionRoutineSelectConfiguration len: %d, Data: %02x  %02x  %02x  %02x %02x  %02x  %02x  %02x
+  [F3001 三模机械键盘\driver\x64\vhidflt.sys] URB_FUNCTION_SELECT_CONFIGURATION[cmp] config: len=%08x type=%08x total=%08x num=%08x value=%08x icfg=%08x attr=%08x power=%08x, handle=%08x

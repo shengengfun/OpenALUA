@@ -1,0 +1,146 @@
+﻿86 entries from research/capture_steady_macro.log
+
+=== 256-byte text blobs (macro / config XML) ===
+----------------------------------------------------------------------
+<?xml version="1.0"?>
+<config type="1" repeat="1" mode="0" delay="0" media="0" function="0" group="0" skcode="458765" play="0" />
+<macro>
+	<group name="Group 0">
+		<item code="458756" state="1" delay="110" name="A" />
+		<item code="458756" state="0" delay=
+----------------------------------------------------------------------
+<?xml version="1.0"?>
+<config type="2" repeat="1" mode="0" delay="0" media="0" function="0" group="0" skcode="458765" play="0" />
+<macro>
+	<group name="Group 0">
+		<item code="458756" state="1" delay="110" name="A" />
+		<item code="458756" state="0" delay=
+----------------------------------------------------------------------
+<?xml version="1.0"?>
+<config type="3" repeat="1" mode="0" delay="0" media="0" function="0" group="0" skcode="458765" play="0" />
+<macro>
+	<group name="Group 0">
+		<item code="458756" state="1" delay="110" name="A" />
+		<item code="458756" state="0" delay=
+----------------------------------------------------------------------
+<?xml version="1.0"?>
+<config type="0" repeat="1" mode="0" delay="0" media="0" function="0" group="0" skcode="458765" play="0" />
+<macro>
+	<group name="Group 0">
+		<item code="458756" state="1" delay="110" name="A" />
+		<item code="458756" state="0" delay=
+----------------------------------------------------------------------
+<?xml version="1.0"?>
+<record code="70004" play="2" type="0" repeat="1" name="A" group="Group 0">
+	<item code="70004" state="1" delay="110" name="A" />
+	<item code="70004" state="0" delay="264" name="A" />
+	<item code="70005" state="1" delay="93" name="B"
+----------------------------------------------------------------------
+<?xml version="1.0"?>
+<record code="70004" play="2" type="0" repeat="1" name="A" group="Group 0">
+	<item code="70004" state="1" delay="110" name="A" />
+	<item code="70004" state="0" delay="264" name="A" />
+	<item code="70005" state="1" delay="93" name="B"
+----------------------------------------------------------------------
+<?xml version="1.0"?>
+<config type="0" repeat="1" mode="0" delay="0" media="0" function="0" group="0" skcode="458765" play="0" />
+<macro>
+	<group name="Group 0">
+		<item code="458756" state="1" delay="110" name="A" />
+		<item code="458756" state="0" delay=
+----------------------------------------------------------------------
+<?xml version="1.0"?>
+<config type="0" repeat="1" mode="0" delay="0" media="0" function="0" group="0" skcode="458765" play="0" />
+<macro>
+	<group name="Group 0">
+		<item code="458756" state="1" delay="110" name="A" />
+		<item code="458756" state="0" delay=
+----------------------------------------------------------------------
+<?xml version="1.0"?>
+<config type="0" repeat="1" mode="0" delay="0" media="0" function="0" group="0" skcode="458765" play="0" />
+<macro>
+	<group name="Group 0">
+		<item code="458756" state="1" delay="110" name="A" />
+		<item code="458756" state="0" delay=
+----------------------------------------------------------------------
+<?xml version="1.0"?>
+<config type="0" repeat="1" mode="0" delay="0" media="0" function="0" group="0" skcode="458765" play="0" />
+<macro>
+	<group name="Group 0">
+		<item code="458756" state="1" delay="110" name="A" />
+		<item code="458756" state="0" delay=
+----------------------------------------------------------------------
+<?xml version="1.0"?>
+<config type="0" repeat="1" mode="0" delay="0" media="0" function="0" group="0" skcode="458765" play="0" />
+<macro>
+	<group name="Group 0">
+		<item code="458756" state="1" delay="110" name="A" />
+		<item code="458756" state="0" delay=
+----------------------------------------------------------------------
+<?xml version="1.0"?>
+<config type="1" repeat="1" mode="0" delay="0" media="0" function="0" group="0" skcode="458765" play="0" />
+<macro>
+	<group name="Group 0">
+		<item code="458756" state="1" delay="110" name="A" />
+		<item code="458756" state="0" delay=
+----------------------------------------------------------------------
+<?xml version="1.0"?>
+<config type="0" repeat="1" mode="0" delay="0" media="0" function="0" group="0" skcode="458765" play="0" />
+<macro>
+	<group name="Group 0">
+		<item code="458756" state="1" delay="110" name="A" />
+		<item code="458756" state="0" delay=
+----------------------------------------------------------------------
+<?xml version="1.0"?>
+<config type="3" repeat="1" mode="0" delay="0" media="0" function="0" group="0" skcode="458765" play="0" />
+<macro>
+	<group name="Group 0">
+		<item code="458756" state="1" delay="110" name="A" />
+		<item code="458756" state="0" delay=
+----------------------------------------------------------------------
+<?xml version="1.0"?>
+<config type="2" repeat="1" mode="0" delay="0" media="0" function="0" group="0" skcode="458765" play="0" />
+<macro>
+	<group name="Group 0">
+		<item code="458756" state="1" delay="110" name="A" />
+		<item code="458756" state="0" delay=
+----------------------------------------------------------------------
+<?xml version="1.0"?>
+<config type="1" repeat="1" mode="0" delay="0" media="0" function="0" group="0" skcode="458765" play="0" />
+<macro>
+	<group name="Group 0">
+		<item code="458756" state="1" delay="110" name="A" />
+		<item code="458756" state="0" delay=
+----------------------------------------------------------------------
+<?xml version="1.0"?>
+<config type="0" repeat="1" mode="0" delay="0" media="0" function="0" group="0" skcode="458810" play="0" />
+<macro>
+	<group name="Group 0">
+		<item code="458756" state="1" delay="110" name="A" />
+		<item code="458756" state="0" delay=
+----------------------------------------------------------------------
+<?xml version="1.0"?>
+<config type="1" repeat="1" mode="0" delay="0" media="0" function="0" group="0" skcode="458810" play="0" />
+<macro>
+	<group name="Group 0">
+		<item code="458756" state="1" delay="110" name="A" />
+		<item code="458756" state="0" delay=
+----------------------------------------------------------------------
+<?xml version="1.0"?>
+<record code="70004" play="2" type="0" repeat="1" name="A" group="Group 0">
+	<item code="70004" state="1" delay="110" name="A" />
+	<item code="70004" state="0" delay="264" name="A" />
+	<item code="70005" state="1" delay="93" name="B"
+----------------------------------------------------------------------
+<?xml version="1.0"?>
+<record code="70004" play="2" type="0" repeat="1" name="A" group="Group 0">
+	<item code="70004" state="1" delay="110" name="A" />
+	<item code="70004" state="0" delay="264" name="A" />
+	<item code="70005" state="1" delay="93" name="B"
+----------------------------------------------------------------------
+<?xml version="1.0"?>
+<config type="1" repeat="1" mode="0" delay="0" media="0" function="0" group="0" skcode="458772" play="0" />
+<macro>
+	<group name="Group 0">
+		<item code="458756" state="1" delay="110" name="A" />
+		<item code="458756" state="0" delay=
